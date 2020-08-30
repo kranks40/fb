@@ -1,8 +1,9 @@
 .story {
+    margin-top: 10px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 120px;
     height: 200px;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
