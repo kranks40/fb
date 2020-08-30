@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Profiler } from 'react'
 import './Sidebar.css';
 import SidebarRow from './SidebarRow';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
@@ -14,7 +14,7 @@ import { ExpandMoreOutlined } from '@material-ui/icons';
 function Sidebar() {
     return (
         <div className='sidebar'>
-           <SidebarRow src='Oketo' title='mr'/> 
+           <SidebarRow src={''} title='mr'/> 
            <SidebarRow Icon={LocalHospitalIcon} title='Covid-19 Information Center'/>
            <SidebarRow Icon={EmojiFlagIcon} title='Papers'/>
            <SidebarRow Icon={PeopleIcon} title='Friends'/>
