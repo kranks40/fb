@@ -13,7 +13,7 @@ function Widgets() {
             allowTransparency='true'
             allow='encrypted-medium'></iframe>
         </div>
-    )
+    );
 }
 
 export default Widgets;

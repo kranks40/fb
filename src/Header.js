@@ -16,7 +16,7 @@ import { useStateValue } from './StateProvider';
 
 
 function Header() {
-    const [{ user }] = useStateValue();
+    const [{ user }, dispatch] = useStateValue();
 
     return (
         <div className='header'>
@@ -30,7 +30,8 @@ function Header() {
             </div>
 
             <div className='header__middle'>
-                <div className='header__option header__option-active'>
+                <div className='header__option 
+                header__option--active'>
                     <HomeIcon fontSize='large'/>
                 </div>
 

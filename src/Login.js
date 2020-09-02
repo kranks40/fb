@@ -27,7 +27,7 @@ function Login() {
                 src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png'alt=''></img>
 
                 <img
-                src='https://www.logo.wine/a/logo/Facebook/Facebook-logo.wine.svg'alt=''></img>
+                src='https://www.logo.wine/a/logo/Facebook/Facebook-Logo.wine.svg'alt=''></img>
             </div>
             <Button type='submit' onClick={signIn}>Sign In</Button>
         </div>
